@@ -181,6 +181,7 @@ span{
 body{
     background-color: black;
     overflow-x: hidden;
+   
 }
 
 .contin{
@@ -379,18 +380,36 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 700px;
+    height: 500px;
 }
-.success{
+.success6{
     display: flex;
     justify-content: center;
+    font-size: 3rem;
+    font-family:"Roboto",sans-serif;
+    margin-top: 80px;
+    
 
 }
-.success1{
+.success3{
     color: yellowgreen;
+    margin-left:20px;
 }
-.success2{
-    margin-right: 20px;
+.success3 p{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-align:justify;
+    margin-right: 150px;
+
+}
+.head{
+    margin-right: 50px;
+}
+.success4{
+    
+    margin-left:40px;
+    margin-right: 90px;
 }
 button{
     width: 150px;
@@ -414,7 +433,6 @@ button{
     height: 500px;
     color: white;
     background: linear-gradient(96deg,rgba(14,14,14,.5) -.04%,rgba(204,254,1,.5) 171.29%);
-    margin: 50px;
     display: flex;
     justify-content: space-between;
 
@@ -427,6 +445,7 @@ button{
 .footer1{
     width: 300px;
     height: 500px;
+    margin-left: 20px;
     line-height: 35px;
 }
 .footer1 img{
